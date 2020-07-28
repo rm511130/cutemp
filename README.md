@@ -1,6 +1,7 @@
 # cutemp raison d'être
 
-`cutemp = curl + tempo`, the idea is to be able to pass a URL to `cutemp` and get back, in json format, the number of milliseconds it took to `curl` said URL. My ultimate goal was to create a Web Page that would show a continuously updated line-chart of the response time for a given URL, and `cutemp` is half of the solution.
+`cutemp = curl + tempo`, the idea is to be able to pass a URL to `cutemp` and get back, in json format, the number of milliseconds it took to `curl` said URL. My ultimate goal was to create a Web Page that would show a continuously updated line-chart of the response time for a given URL. 
+`cutemp` takes me 50% of the way towards my stated goal, and http://github.com/rm511130/line-chart does the rest.
 
 Example:
 
